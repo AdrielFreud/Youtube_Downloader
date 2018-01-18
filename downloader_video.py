@@ -1,3 +1,9 @@
+# Desenvolvido por Adriel Freud!
+# Contato: businessc0rp2k17@gmail.com
+# FB: http://www.facebook.com/xrn401
+#   =>DebutySecTeamSecurity<=
+#conding: utf-8
+
 from __future__ import unicode_literals
 import youtube_dl
 import urllib
