@@ -19,18 +19,25 @@ os.system('color a')
 os.system('cls')
 
 main = '''
-# Desenvolvido por Adriel Freud / Elder!
-# Contato: usuariocargo2016@gmail.com 
+# Desenvolvido por Adriel Freud!
+# Contato: businessc0rp2k17@gmail.com
 # FB: http://www.facebook.com/xrn401
 #   =>DebutySecTeamSecurity<=
 '''
 
+try:
+	image3 = Image.open('libs\inforge2.jpg')
+	image4 = ImageTk.PhotoImage(image3)
+	label4 = Label(root, image=image4)
+	label4.pack()
+	root.iconbitmap('libs\icone.ico')
+except:
+	image3 = Image.open('libs/inforge2.jpg')
+	image4 = ImageTk.PhotoImage(image3)
+	label4 = Label(root, image=image4)
+	label4.pack()
+	root.iconbitmap('libs/icone.ico')
 
-image3 = Image.open('inforge2.jpg')
-image4 = ImageTk.PhotoImage(image3)
-label4 = Label(root, image=image4)
-label4.pack()
-root.iconbitmap('icone.ico')
 
 title = Label(root, text='Youtube Downloader', fg='black', font=('Arial', 21))
 title.place(x=170,y=10)
